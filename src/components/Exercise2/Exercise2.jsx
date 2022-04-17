@@ -44,7 +44,7 @@ const Exercise2 = () => {
           width: '100%',
           fontSize: '1.2rem',
         }}>
-        {text}
+        {text ? text : <p>Your Mouse isn't clear yet !</p>}
       </p>
     </div>
   );
