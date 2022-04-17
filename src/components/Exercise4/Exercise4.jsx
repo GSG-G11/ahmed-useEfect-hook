@@ -12,7 +12,7 @@ const Exercise4 = () => {
   useEffect(() => {
     const abortController = new AbortController();
     let timer = setTimeout(() => {
-      fetch(`https://robohash.org/${search}`, {
+      fetch(`https://api.codetabs.com/v1/proxy/?quest=https://robohash.org/${search}`, {
         signal: abortController.signal,
       })
         .then((res) => {
