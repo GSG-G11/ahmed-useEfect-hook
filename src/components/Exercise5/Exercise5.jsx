@@ -106,6 +106,7 @@ const Exercise5 = () => {
                 style={{
                   padding: '0.5rem 1.2rem',
                   background: '#2a2a2a',
+                  color: 'white',
                   margin: '0.5rem',
                   display: 'flex',
                   justifyContent: 'center',
