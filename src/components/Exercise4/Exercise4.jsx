@@ -69,7 +69,7 @@ const Exercise4 = () => {
             width: '100%',
             height: '100%',
           }}>
-          {robot !== 'https://robohash.org/' ? (
+          {robot !== 'https://api.codetabs.com/v1/proxy/?quest=https://robohash.org/' ? (
             <img src={robot} alt={robot} width='100' height='100' />
           ) : (
             <p
